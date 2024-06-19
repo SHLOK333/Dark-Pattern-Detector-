@@ -1,0 +1,94 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+.modal-header {
+    background-color: #000000;
+    padding: 10px;
+    text-align: center;
+}
+
+/* CYBER SURGE Text Styles */
+.modal-header h1 {
+    color: #FFF; /* Set the text color to white */
+    margin: 0;
+}
+
+/* Popup Content Styles */
+.modal-content {
+    background-color: #FFF;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    /* Adjust the width of the popup */
+    width: 400px; /* Change this value to your desired width */
+
+    /* Additional styles you can experiment with:
+       - border-radius: Adds rounded corners to the popup.
+       - box-shadow: Adds a shadow to the popup for a lifted effect.
+    */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Container Styles */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Dark Pattern Info Styles */
+.dark-pattern-info {
+    margin-bottom: 10px;
+}
+
+/* Label Styles */
+.label {
+    font-size: 14px;
+    color: #FFF;
+    margin: 0;
+}
+
+/* Number Styles */
+.number {
+    font-size: 18px;
+    font-weight: bold;
+    color: #FFF;
+    margin: 0;
+}
+
+/* Image Container Styles */
+.image-container img {
+    width: 300px; /* Set the width of your images */
+    height: 300px; /* Set the height of your images */
+    margin-right: 10px;
+}
+
+/* Analyze Button Styles */
+.analyze-button {
+    background-color: #333;
+    color: #FFF;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Footer Styles */
+.modal-footer {
+    background-color: #FFF;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Link Styles */
+.link {
+    text-decoration: none;
+    color: #333;
+}

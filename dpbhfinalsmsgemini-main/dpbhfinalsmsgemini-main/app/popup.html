@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins&display=swap">
+    <link rel="stylesheet" href="css/popup.css" type="text/css">
+    <style>
+        body {
+            background-image: url('https://cdn.pixabay.com/photo/2023/02/06/18/25/ai-generated-7772529_1280.jpg');
+            background-size: cover;
+            background-position: center;
+            font-family: 'Poppins', sans-serif;
+            color: #ffffff;
+            margin: 0; /* Remove default body margin */
+        }
+
+        .modal-header, .modal-content, .modal-footer {
+            background: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        .dark-pattern-info {
+            color: #ffffff;
+        }
+
+        .analyze-button {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        .link {
+            color: #3498db;
+        }
+    </style>
+    <script src="js/popup.js"></script>
+</head>
+
+<body>
+    <div class="modal-header">
+        <h1>CYBER SURGE.</h1>
+    </div>
+    <div class="modal-content">
+        <div class="container">
+            <div class="dark-pattern-info">
+                <p class="label">Dark Patterns</p>
+                <p class="number" id="darkPatternCount">n/a</p>
+            </div>
+            <div class="image-container">
+                <!-- Replace the src attribute with your actual image URL -->
+                <img src="https://cdn.pixabay.com/photo/2023/02/06/18/25/ai-generated-7772529_1280.jpg" alt="Image 1">
+                <!-- Add more images as needed -->
+            </div>
+        </div>
+        <button class="analyze-button" type="button" onclick="detectDarkPatterns()">DETECT</button>
+    </div>
+    <div class="modal-footer">
+        <a class="link" href="http://localhost:8501">To know more about these patterns</a>
+    </div>
+</body>
+
+</html>
