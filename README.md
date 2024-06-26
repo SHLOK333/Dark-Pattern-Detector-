@@ -13,3 +13,4 @@ Moreover, our extension offers an innovative functionality whereby users can eff
 Through rigorous validation and testing, our solution demonstrates efficacy in promoting transparency and enhancing user safety online, thereby contributing to a more trustworthy digital environment.
 
 message me on how to run the extension and do the working 
+and help me out 
