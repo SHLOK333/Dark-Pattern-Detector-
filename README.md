@@ -14,4 +14,4 @@ Through rigorous validation and testing, our solution demonstrates efficacy in p
 
 message me on how to run the extension and do the working 
 and help me out...
-first get your api key from twillo
+first get your api key from twillo check raw 
